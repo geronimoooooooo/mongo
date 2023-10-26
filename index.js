@@ -1,14 +1,12 @@
-const express = require('express')
-const app = express()
-const port = 3000
+const express = require('express');
+const app = express();
 
-app.use(express.json())
+app.get('/', (req, res) => {
+    res.send('Hello World!');
+});
 
-app.get('/', (req, res) => res.send('Hello World!'))
+app.listen(port, () => {
+    console.log('Example app listening on port port!');
+});
 
-app.post('/', (req, res) => {
-    console.log(req.body)
-    res.json({ success: true })
-})
-
-app.listen(port, () => console.log(`Example app listening at http://localhost:3000`))
+//Run app, then load http://localhost:port in a browser to see the output.

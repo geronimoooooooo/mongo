@@ -1,0 +1,26 @@
+{
+  "name": "express1",
+  "version": "1.0.0",
+  "description": "Some node.js and express.js stuff.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geronimoooooooo/node-express1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geronimoooooooo/node-express1/issues"
+  },
+  "homepage": "https://github.com/geronimoooooooo/node-express1#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^6.2.0",
+    "mongoose": "^7.6.3",
+    "nodemon": "^3.0.1"
+  }
+}
